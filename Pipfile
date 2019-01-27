@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+"flake8" = "== 3.2.1"
+
+[packages]
+bcrypt = "*"
+bleach = "*"
+django = ">=2.1.0,<3.0.0"
+mysqlclient = "*"
+pyparsing = "*"
+pillow = "*"
+psycopg2 = "*"
+django-enumfields = "*"
+sqlalchemy = "*"
+django-debug-toolbar = "*"
+django-imagekit = "*"
+randomcolor = "*"
+"iso8601" = "*"
+icalendar = "*"
+gunicorn = "*"
+mistune = "*"
+requests = "*"
+
+[requires]
+python_version = "3.6"
